@@ -89,7 +89,7 @@ def get_max(num1, num2):
         return num2
 
 def is_positive(num):
-    return num % 2 == 0
+    return num > 0
 
 def calculate_tax(price, vat):
     return price + price * vat
@@ -99,7 +99,7 @@ def get_grade_status(grade):
         mes = "Excellent"
     elif grade >= 75:
         mes = "Good"
-    elif grade > 60:
+    elif grade >= 60:
         mes = "Average"
     elif grade >= 0:
         mes = "Failed"
