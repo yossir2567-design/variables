@@ -190,7 +190,7 @@ def check_list(numbers):
             evens += 1
         else:
             odd += 1
-    return evens, 0dd, sum(numbers)
+    return evens, odd, sum(numbers)
 
 
 def analyze_grades(grades:list):
